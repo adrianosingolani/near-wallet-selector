@@ -7,6 +7,10 @@ Guest Book
 
 <!-- MAGIC COMMENT: DO NOT DELETE! Everything above this line is hidden on NEAR Examples page -->
 
+Challenge #4 of NEAR SPRING POP-UP HACKATHON https://nearspring.splashthat.com/
+
+Live at https://adrianosingolani.github.io/near-wallet-selector
+
 Sign in with [NEAR] and add a message to the guest book! A starter app built with an [AssemblyScript] backend and a [React] frontend.
 
 
