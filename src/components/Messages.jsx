@@ -3,17 +3,12 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 
 export default function Messages({ messages }) {
-  useEffect(() => {
-    console.log(messages);
-  }, [messages])
-  
-
   return (
     <>
       <h2>Messages</h2>
       {messages.map((message, i) =>
         // TODO: format as cards, add timestamp
-        <p key={i} className={message.premium ? 'is-premium' : ''}>
+        <p key={i} className={message.premium ? 'message is-premium' : 'message'}>
           <span style={{fontSize: '10px', fontStyle: 'italic'}}>
             {moment(message.datetime/1000000).format('YYYY-MM-DD HH:mm:ss')}
           </span><br />

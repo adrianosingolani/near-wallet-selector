@@ -115,16 +115,14 @@ button {
   }
 }
 
-p {
+.message {
   padding: 1em;
   margin: 0;
-  border-bottom: solid 1px var(--fg);
+  border-bottom: solid 2px var(--fg);
 }
 
 .is-premium {
-  // border-left: 0.25em solid var(--secondary);
-  // padding-left: 0.25em;
-  // margin-left: -0.5em;
   background-color: var(--fg);
   color: var(--bg);
+  border-bottom: solid 2px var(--bg);
 }
